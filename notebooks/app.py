@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 import seaborn as sns
 import matplotlib.pyplot as plt
-import notebooks.preprocessing as preprocessing,helper
+import preprocessing,helper
 
 results = preprocessing.preprocess()
 goalscorer = preprocessing.scorer_data()
