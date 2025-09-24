@@ -1,8 +1,8 @@
 import pandas as pd
 
-goalscorer = pd.read_csv("data/goalscorers.csv")
-df = pd.read_csv("data/results.csv")
-shootout = pd.read_csv("data/shootouts.csv")
+goalscorer = pd.read_csv("../data/goalscorers.csv")
+df = pd.read_csv("../data/results.csv")
+shootout = pd.read_csv("../data/shootouts.csv")
 
 def preprocess():
     global df , goalscorer ,shootout
